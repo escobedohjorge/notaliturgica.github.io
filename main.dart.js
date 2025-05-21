@@ -65932,7 +65932,7 @@ else if(A.nb(a))q=40
 else{if(A.nc(a))r=50
 else r=A.nd(a)?60:70
 q=r}r=t.W
-p=A.a([this.DS(a,"Descargar en Google Play","assets/images/google_play_badge.png","https://play.google.com/store/apps/details?id=com.notaliturgica.dev&pcampaignid=web_share",s,q),this.DS(a,"Descargar App de Windows","assets/images/windows_badge.png","https://nota-liturgica.web.app/windows-app.zip",s,q)],r)
+p=A.a([this.DS(a,"Descargar en Google Play","assets/images/google_play_badge.png","https://play.google.com/store/apps/details?id=com.notaliturgica.dev&pcampaignid=web_share",s,q),this.DS(a,"Descargar App de Windows","assets/images/windows_badge.png","https://github.com/escobedohjorge/notaliturgica.github.io/releases/download/v1.4.6.6/Windows.NotaLiturgica.v1.4.6.6.exe",s,q)],r)
 o=Date.now()
 if(A.bE(a,n,m).w.a.a<365)m=11
 else if(A.nb(a))m=12
