@@ -16,31 +16,56 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
- <!-- HTML Meta Tags -->
-<title>Nota Litúrgica</title>
-<meta name="description" content="Cantos y esquemas para un mejor servicio en tu ministerio.">
+  <!-- HTML Meta Tags -->
+  <title>Nota Litúrgica</title>
+  <meta name="description" content="Cantos y esquemas para un mejor servicio en tu ministerio.">
 
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://escobedohjorge.github.io/notaliturgica.github.io">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Nota Litúrgica">
-<meta property="og:description" content="Cantos y esquemas para la liturgia.">
-<meta property="og:image" content="https://opengraph.b-cdn.net/production/images/049c13c9-3f0f-4ffc-ac8d-93cfd527e7e6.png?token=wJT4bQ9iv4JmmFA9EUMtwGNeo_Rmt-FGmb1qcdgn30o&height=1199&width=1200&expires=33284298578">
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://escobedohjorge.github.io/notaliturgica.github.io">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nota Litúrgica">
+  <meta property="og:description" content="Cantos y esquemas para la liturgia.">
+  <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/049c13c9-3f0f-4ffc-ac8d-93cfd527e7e6.png?token=wJT4bQ9iv4JmmFA9EUMtwGNeo_Rmt-FGmb1qcdgn30o&height=1199&width=1200&expires=33284298578">
 
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="escobedohjorge.github.io">
-<meta property="twitter:url" content="https://escobedohjorge.github.io/notaliturgica.github.io">
-<meta name="twitter:title" content="Nota Litúrgica">
-<meta name="twitter:description" content="Cantos y esquemas para la liturgia.">
-<meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/049c13c9-3f0f-4ffc-ac8d-93cfd527e7e6.png?token=wJT4bQ9iv4JmmFA9EUMtwGNeo_Rmt-FGmb1qcdgn30o&height=1199&width=1200&expires=33284298578">
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="escobedohjorge.github.io">
+  <meta property="twitter:url" content="https://escobedohjorge.github.io/notaliturgica.github.io">
+  <meta name="twitter:title" content="Nota Litúrgica">
+  <meta name="twitter:description" content="Cantos y esquemas para la liturgia.">
+  <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/049c13c9-3f0f-4ffc-ac8d-93cfd527e7e6.png?token=wJT4bQ9iv4JmmFA9EUMtwGNeo_Rmt-FGmb1qcdgn30o&height=1199&width=1200&expires=33284298578">
 
-<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+  <script>
+    function getParameterByName(name) {
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var url = window.location.href;
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+
+    function openAppOrRedirect() {
+      const nombre = getParameterByName('nombre');
+      if (!nombre) return; // No parámetro, no hacer nada
+
+      const appLink = `notaliturgica://reproducir?nombre=${encodeURIComponent(nombre)}`;
+      const playStore = 'https://play.google.com/store/apps/details?id=tu.paquete.app'; // Cambia por el ID real de tu app
+
+      // Intenta abrir la app
+      window.location = appLink;
+
+      // Si no abre en 2 seg, redirige a Play Store
+      setTimeout(() => {
+        window.location = playStore;
+      }, 2000);
+    }
+
+    window.onload = openAppOrRedirect;
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
-
-
-
