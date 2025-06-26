@@ -62582,7 +62582,7 @@ else if(A.jd(a))q=40
 else{if(A.je(a))r=50
 else r=A.jg(a)?60:70
 q=r}r=t.c
-p=A.c([this.CY(a,"Descargar en Google Play","assets/images/google_play_badge.png","https://play.google.com/store/apps/details?id=com.notaliturgica.dev&pcampaignid=web_share",s,q),this.CY(a,"Descargar App de Windows","assets/images/windows_badge.png","https://github.com/escobedohjorge/notaliturgica.github.io/releases/download/v1.5.0.4/Windows.Nota.Liturgica.v1.5.0.4.exe",s,q)],r)
+p=A.c([this.CY(a,"Descargar en Google Play","assets/images/google_play_badge.png","https://play.google.com/store/apps/details?id=com.notaliturgica.dev&pcampaignid=web_share",s,q),this.CY(a,"Descargar App de Windows","assets/images/windows_badge.png","https://github.com/escobedohjorge/notaliturgica.github.io/releases/download/v1.5.0.5/Windows.NotaLiturgica.v1.5.0.5.exe",s,q)],r)
 o=Date.now()
 if(A.bf(a,n,m).w.a.a<365)m=11
 else if(A.jd(a))m=12
