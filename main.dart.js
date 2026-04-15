@@ -68825,12 +68825,12 @@ return A.oL(A.d([A.iB(b,s,s,s,s,s,s,s,A.cD(s,s,B.i,s,s,s,s,s,"Poppins",s,s,e,s,s
 A.Wo.prototype={
 $0(){var s=window
 s.toString
-B.we.O4(s,"/#/privacy-Nota-Liturgica","_blank")},
+B.we.O4(s,"/notaliturgica.github.io/#/privacy-Nota-Liturgica","_blank")},
 $S:0}
 A.Wp.prototype={
 $0(){var s=window
 s.toString
-B.we.O4(s,"/#/terms-Nota-Liturgica","_blank")},
+B.we.O4(s,"/notaliturgica.github.io/#/terms-Nota-Liturgica","_blank")},
 $S:0}
 A.Wn.prototype={
 $0(){var s=0,r=A.G(t.H),q=this,p
